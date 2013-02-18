@@ -1,0 +1,29 @@
+{
+  "name": "require-ejs",
+  "version": "0.0.2",
+  "description": "Allows requiring EJS files as Node.js modules",
+  "main": "require-ejs.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ejs": "~0.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fshost/require-ejs"
+  },
+  "keywords": [
+    "node.js",
+    "require",
+    "ejs",
+    "modules"
+  ],
+  "author": "Nathan Cartwright",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
