@@ -1,1 +1,10 @@
-﻿<b><%= title %></b><% include index %>
+﻿<b><%= title %></b>
+<% include index -%>
+
+<% function renderLinkList(item) { -%>
+    <li><a href="<%= item.url %>"><%= item.text %></a></li>
+<% } -%>
+
+<ul>
+<% items.map(renderLinkList) -%>
+</ul>
