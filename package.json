@@ -1,6 +1,6 @@
 {
   "name": "require-ejs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Allows requiring EJS files as Node.js modules",
   "main": "require-ejs.js",
   "directories": {
