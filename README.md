@@ -1,11 +1,3 @@
 ﻿### require-ejs
 
-Allows requiring [EJS](https://github.com/visionmedia/ejs) template files as modules in Node.js.  Requiring any file with an .ejs extension returns a compiled EJS template function.
-
-#### installation
-
-npm install require-ejs
-
-#### about
-
-After noticing that in the [original EJS](https://github.com/visionmedia/ejs) source there was code for registering an EJS file as a Node.js module, but that it did not work when I tried to use it, I forked and modified the EJS compiler source and wrote this extension.  I have sent a pull request to the original repo but until if/when it is accepted I'm using this fork.
+This module allows [EJS](https://github.com/visionmedia/ejs) template files to be required as Node.js modules.  It was merged into EJS via [this commit](https://github.com/visionmedia/ejs/commit/054673a7613e4b92407462c17ebf7198399bd383) and is therefore deprecated.
